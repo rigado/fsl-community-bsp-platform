@@ -27,8 +27,10 @@
   <project remote="rigado" revision="master" name="meta-vesta" path="sources/meta-vesta"/>
   <project remote="yocto" revision="master" name="meta-java" path="sources/meta-java"/>
   <project remote="yocto" revision="1.2.0" name="meta-oic" path="sources/meta-oic"/>
+  <project remote="yocto" revision="master" name="meta-intel-iot-middleware" path="sources/meta-intel-iot-middleware"/>
   <project remote="iot-devkit" revision="master" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
   <project remote="zoetrope" revision="master" name="meta-python-iothub" path="sources/meta-python-iothub"/>
+  
 
 </manifest>
