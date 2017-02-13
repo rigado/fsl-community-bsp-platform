@@ -9,6 +9,7 @@
   <remote fetch="https://git.rigado.com/vesta" name="rigado"/>
   <remote fetch="https://github.com/intel-iot-devkit/" name="iot-devkit"/>  
   <remote fetch="https://github.com/ZoetropeLabs/" name="zoetrope"/>  
+  <remote fetch="https://git.openswitch.net/openswitch/ops-build" name="openswitch"/>
  
 
   <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
@@ -29,5 +30,6 @@
   <project remote="iot-devkit" revision="master" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
   <project remote="zoetrope" revision="master" name="meta-python-iothub" path="sources/meta-python-iothub"/>
+  <project remote="openswitch" revision="master" name="meta-foss-openswitch" path="yocto/openswitch/meta-foss-openswitch"/>
 
 </manifest>
